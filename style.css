@@ -316,7 +316,7 @@ main {
     flex-direction: column;
     height: 570px;
     max-width: 355px;
-    border-radius: 16p;
+    border-radius: 16px;
     background-color: #212327;
     margin-top: 16px;
 }
@@ -375,11 +375,78 @@ main {
 
 }
 
-.show-more:hover {
+.show-more:hover, .follow-profile:hover {
     background-color: #1c1e22;
     cursor: pointer;
 }
 
+.follow {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    max-width: 355px;
+    border-radius: 16px;
+    background-color: #212327;
+    margin-top: 16px;
+}
 
+.follow-profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    margin-top: 5px;
+    padding: 30px 15px;
+}
 
+.follow-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.follow-details a {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.follow-details a:hover{
+    text-decoration: underline;
+}
+
+.follow-details span {
+    color: rgb(110, 118, 125);
+    font-size: 1.4rem;
+    font-weight: 400;
+    
+}
+
+#follows {
+    font-weight: 300;
+    font-size: 1.35rem;
+    background-color: #1c1e22;
+    border-radius: 3px;
+    padding: 2px 4px;
+}
+
+.follow .tweet-button {
+    width: 75px;
+    height: 35px;
+    margin:0 0 0 12px ;
+    font-weight: 600;
+    font-size: 1.5rem;
+    background-color: white;
+    color: black;
+}
+
+.follow .show-more {
+    padding: 10px 10px;
+}
+
+.follow-cont {
+    display: flex;
+    justify-content: space-between;
+
+}
 
